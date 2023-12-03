@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CopeApp</string>
+    <string name="button">Button</string>
+    <string name="ecstasy">Ecstasy</string>
+    <string name="button_7">Button 7</string>
+    <string name="button_6">Button 6</string>
+    <string name="ketamine">Ketamine</string>
+    <string name="lsd">LSD</string>
+    <string name="cannabis">Cannabis</string>
 </resources>
