@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_smoke"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:foreground="@drawable/substance_button"
@@ -18,12 +18,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/button_pill"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.353" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_horse"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:foreground="@drawable/substance_button"
@@ -36,6 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.605" />
+
 
     <Button
         android:id="@+id/button7"
@@ -53,7 +54,7 @@
         app:layout_constraintVertical_bias="0.856" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_sun"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:foreground="@drawable/substance_button"
@@ -61,7 +62,7 @@
         android:textColorHighlight="#00FFFFFF"
         android:textColorLink="#00654747"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button_horse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.605" />
@@ -75,15 +76,16 @@
         android:textColorHighlight="#00FFFFFF"
         android:textColorLink="#00654747"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button_horse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.856" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_pill"
         android:layout_width="125dp"
         android:layout_height="125dp"
+        android:checkable="true"
         android:foreground="@drawable/substance_button"
         android:text="Button"
         android:textColorHighlight="#00FFFFFF"
@@ -94,6 +96,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.353" />
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbarConstraintLayout"
@@ -165,6 +168,46 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbarConstraintLayout" />
+
+    <ImageView
+        android:id="@+id/imageView_Pill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button_pill"
+        app:layout_constraintEnd_toEndOf="@+id/button_pill"
+        app:layout_constraintStart_toStartOf="@+id/button_pill"
+        app:layout_constraintTop_toTopOf="@+id/button_pill"
+        app:srcCompat="@drawable/pill" />
+
+    <ImageView
+        android:id="@+id/imageView_Smoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button_smoke"
+        app:layout_constraintEnd_toEndOf="@+id/button_smoke"
+        app:layout_constraintStart_toStartOf="@+id/button_smoke"
+        app:layout_constraintTop_toTopOf="@+id/button_smoke"
+        app:srcCompat="@drawable/smoke" />
+
+    <ImageView
+        android:id="@+id/imageView_Sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button_sun"
+        app:layout_constraintEnd_toEndOf="@+id/button_sun"
+        app:layout_constraintStart_toStartOf="@+id/button_sun"
+        app:layout_constraintTop_toTopOf="@+id/button_sun"
+        app:srcCompat="@drawable/sun" />
+
+    <ImageView
+        android:id="@+id/imageView_Horse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button_horse"
+        app:layout_constraintEnd_toEndOf="@+id/button_horse"
+        app:layout_constraintStart_toStartOf="@+id/button_horse"
+        app:layout_constraintTop_toTopOf="@+id/button_horse"
+        app:srcCompat="@drawable/horse" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
