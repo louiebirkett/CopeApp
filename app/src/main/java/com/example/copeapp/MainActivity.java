@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.copeapp.profiles.CannabisProfile;
+import com.example.copeapp.profiles.EcstasyProfile;
+import com.example.copeapp.profiles.KetamineProfile;
+import com.example.copeapp.profiles.LSDProfile;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -49,24 +54,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                openKetamineProfile();
             }
         });
         sunButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                openLSDProfile();
             }
         });
         button6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Under Construction", Toast.LENGTH_SHORT).show();
             }
         });
         button7.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Under Construction", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -79,6 +86,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openCannabisProfile(){
         Intent intent = new Intent(this, CannabisProfile.class);
+        startActivity(intent);
+    }
+    public void openLSDProfile(){
+        Intent intent = new Intent(this, LSDProfile.class);
+        startActivity(intent);
+    }
+    public void openKetamineProfile(){
+        Intent intent = new Intent(this, KetamineProfile.class);
         startActivity(intent);
     }
 

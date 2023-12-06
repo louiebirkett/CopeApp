@@ -7,7 +7,7 @@
     android:background="#FBFBFB"
     android:contentDescription="@string/ecstasy"
     android:orientation="vertical"
-    tools:context=".EcstasyProfile">
+    tools:context=".profiles.EcstasyProfile">
 
     <ScrollView
         android:layout_width="wrap_content"

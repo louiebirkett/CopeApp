@@ -105,7 +105,7 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Cannabis"
+                android:text="LSD"
                 android:textSize="30sp"
                 tools:ignore="HardcodedText,TextSizeCheck" />
 
@@ -115,7 +115,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="20dp"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/cannabis"
+                app:srcCompat="@drawable/lsd"
                 tools:ignore="ContentDescription,HardcodedText" />
 
             <View
@@ -156,20 +156,20 @@
                     android:textSize="25sp" />
 
                 <View
+                    android:id="@+id/interaction_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#C72121"
+                    android:foreground="@drawable/tramadol_warning" />
+
+                <View
                     android:id="@+id/interaction_amber"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginTop="1dp"
                     android:background="#DBCA2C"
-                    android:foreground="@drawable/amphetamine_warning" />
-
-                <View
-                    android:id="@+id/interaction_amber3"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="1dp"
-                    android:background="#DBCA2C"
-                    android:foreground="@drawable/mushroom_warning" />
+                    android:foreground="@drawable/alcohol_warning" />
 
                 <View
                     android:id="@+id/interaction_green"
@@ -177,7 +177,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="1dp"
                     android:background="#53B842"
-                    android:foreground="@drawable/lsd_warning" />
+                    android:foreground="@drawable/ssri_warning" />
 
             </LinearLayout>
 
@@ -185,8 +185,8 @@
                 android:id="@+id/substanceDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cannabis (also known as thc,marijuana,[1] weed,[2] pot,[3], grass,[4] hemp,[5] and many others) is a preparation of the cannabis plant that produces psychoactive effects when consumed (via smoking, vaporizing, or ingestion). It is the most used illicit substance in the world.[6][7] The mechanism of action is binding activity at cannabinoid receptors distributed throughout the body.[citation needed]  The principal psychoactive constituent of cannabis is tetrahydrocannabinol (THC), which makes up one of 483 known compounds in the plant,[8] including at least 84 other cannabinoids such as cannabidiol (CBD), cannabinol (CBN), tetrahydrocannabivarin (THCV),[9][10] and cannabigerol (CBG). At least three species are recognized: Cannabis sativa, Cannabis indica, and Cannabis ruderalis.[citation needed]  The earliest recorded uses of cannabis date from the 3rd millennium BC.[11] In modern times, cannabis is used for recreational or medicinal and religious or spiritual purposes.[12] It played a central role in the 1960s youth counterculture movement and is associated with the art and music of this era.[citation needed]  Subjective effects include sedation, appetite enhancement, immersion enhancement, creativity enhancement, increased sense of humor, increased music appreciation, visual, disconnection and euphoria. The effects can vary widely depending on dose, strain and form, tolerance, and set and setting. Notably, it can either strongly suppress or enhance anxiety depending on the individual and situation.  Lower doses are associated with relaxing effects similar to a depressant. Higher doses are associated with mild-to-moderate hallucinogenic effects such as visual hallucinations, conceptual thinking and time distortion, as well as a greater risk of anxiety, paranoia, and delusions (generally more prevalent with sativa strains).  Cannabis is considered to have low to moderate abuse potential.[citation needed] Chronic use is associated with escalating tolerance and psychological dependence in some individuals.[citation needed] It has very low physical toxicity and is essentially impossible to physically overdose on. However, it is capable of exacerbating certain mental health symptoms like delusions or psychosis in predisposed individuals (see this section).[citation needed]  Long-term cannabis use may be associated with negative cognitive effects such as brain fog, lowered motivation, difficulty learning, and inattention. These effects are typically reversible with tapered use and time off.[13]"
-                tools:ignore="HardcodedText,VisualLintLongText" />
+                android:text="Lysergic acid diethylamide (also known as Lysergide, LSD-25, LSD, L, Lucy, and Acid) is a classical psychedelic substance of the lysergamide class.[2] It is perhaps the most researched and culturally influential psychedelic substance, as well as the prototypal lysergamide. The mechanism of action is not fully known, although serotonin binding activity is thought to be involved.  The psychoactive effects of LSD were first discovered in 1943 by Albert Hofmann at Sandoz Laboratories (Switzerland).[3] In the 1950s, it was widely distributed by Sandoz as an experimental drug for psychotherapy and scientific research;[4] during this era, it provoked considerable interest from the intellectual establishment and was even the subject of a clandestine investigation by the U.S. Central Intelligence Agency (CIA) for potential applications in &quot;mind control&quot;.[5]  Recreational LSD use became a central, highly-visible aspect of the 1960s youth counterculture movement, eventually paving the way for international prohibition in 1971.[6][7] Today, illicit recreational use remains widespread and it is associated in popular culture with the counterculture and rave scenes. The lifetime prevalence of LSD use among American adults is 6-8%.[8]  Following decades of institutional suppression, scientific research involving LSD has recently undergone a massive revival.[4] As a part of the so-called &quot;psychedelic renaissance&quot;,[9] it is currently being investigated in the treatment of a number of conditions including alcoholism,[10] substance addiction,[11] cluster headache,[12] autism,[13] and anxiety associated with terminal illness.[14]  Subjective effects include visual geometry / hallucinatory states, time distortion, enhanced introspection, conceptual thinking, increased music appreciation, euphoria, and ego loss. LSD use is reportedly associated with mystical-type experiences that are sometimes claimed to facilitate self-reflection and personal growth.[15] It has been called the first modern entheogen, a group which is otherwise limited to traditional plant preparations or extracts.[16]  Unlike most highly prohibited substances, LSD has not been proven to be physiologically toxic or addictive.[2][17] However, adverse psychological reactions such as severe anxiety, paranoia, delusions, and psychosis are always possible, particularly for those predisposed to mental disorders"
+                tools:ignore="VisualLintLongText" />
 
         </LinearLayout>
     </ScrollView>

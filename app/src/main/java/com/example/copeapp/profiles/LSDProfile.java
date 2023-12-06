@@ -1,16 +1,18 @@
-package com.example.copeapp;
+package com.example.copeapp.profiles;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
-public class EcstasyProfile extends AppCompatActivity {
+import com.example.copeapp.MainActivity;
+import com.example.copeapp.R;
+
+public class LSDProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class EcstasyProfile extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(EcstasyProfile.this, "Back", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LSDProfile.this, "Back", Toast.LENGTH_SHORT).show();
                 openHome();
 
             }
@@ -40,7 +42,6 @@ public class EcstasyProfile extends AppCompatActivity {
 
 
     }
-
 
     // Open Home Page
     public void openHome() {
