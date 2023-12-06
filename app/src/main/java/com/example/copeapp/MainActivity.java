@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                openKetamineProfile();
             }
 
         });

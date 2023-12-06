@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBFBFB"
-    android:contentDescription="@string/ketamine"
+    android:contentDescription="@string/lsd"
     android:orientation="vertical"
-    tools:context=".profiles.KetamineProfile">
+    tools:context=".profiles.LSDProfile">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -28,8 +28,8 @@
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
-                    android:layout_width="409dp"
-                    android:layout_height="75dp"
+                    android:layout_width="733dp"
+                    android:layout_height="66dp"
                     android:background="@color/white"
                     android:minHeight="?attr/actionBarSize"
                     android:theme="?attr/actionBarTheme"
@@ -105,7 +105,7 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Ketamine"
+                android:text="LSD"
                 android:textSize="30sp"
                 tools:ignore="HardcodedText,TextSizeCheck" />
 
@@ -168,8 +168,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginTop="1dp"
-                    android:background="#FA0529"
-                    android:foreground="@drawable/alcohol_warning_red" />
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/alcohol_warning" />
 
                 <View
                     android:id="@+id/interaction_green"
@@ -177,7 +177,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="1dp"
                     android:background="#53B842"
-                    android:foreground="@drawable/benzo_warning" />
+                    android:foreground="@drawable/ssri_warning" />
 
             </LinearLayout>
 
@@ -185,7 +185,7 @@
                 android:id="@+id/substanceDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ketamine (also known as Ket, K, Special K, vitamin K,[5] Kitty, and others) is a classical dissociative substance of the arylcyclohexylamine class. It is perhaps the best-known and archetypal member of the dissociatives, a diverse group which includes PCP, methoxetamine, DXM, and nitrous oxide. The mechanism of action is not fully known, although blocking of the NMDA glutamate receptor is thought to be involved.  Developed in 1963 by Parke-Davis Laboratories, it was originally intended as a replacement for the surgical anesthetic phencyclidine (PCP).[6] It is now widely used in human and veterinary medicine, typically in surgical and intensive care settings. Recently, it has received significant clinical research following the discovery that it can rapidly relieve treatment-resistant depression and suicidal ideation.[7]  Recreational use was first reported amongst medicinal chemists in the United States in 1967,[8] and became more widespread in Europe in the 1990s, where it gained popularity as an adulterant in ecstasy tablets.[9][10] Today, it is associated in popular culture with the nightclub and rave scenes.[11]  Subjective effects include motor control loss, pain relief, internal hallucinations, memory suppression, conceptual thinking, immersion enhancement, euphoria, and depersonalization / dissociation. The effects are similar to PCP and DXM but with a shorter duration and a rapid onset. It is known for producing relatively &quot;pure&quot; dissociation, without as much stimulation and mania as PCP or MXE.  Additionally, the effects of ketamine are highly dose-dependent.[12] At lower doses, users report alcohol-like disinhibition and relaxation effects. At higher doses, however, it reportedly produces a hallucinogenic trance-like state (called a &quot;k-hole&quot;) that is often described as an &quot;out-of-body&quot; or &quot;near-death&quot; experience.  It has moderate to high abuse potential. Chronic use (i.e. high dose, repeat administration) is linked with compulsive redosing and psychological dependence. Additionally, the health risks of chronic or heavy use are not well-studied; however, there is increasing evidence that it can cause bladder dysfunction[13] and some evidence of cognitive and memory issues"
+                android:text="Lysergic acid diethylamide (also known as Lysergide, LSD-25, LSD, L, Lucy, and Acid) is a classical psychedelic substance of the lysergamide class.[2] It is perhaps the most researched and culturally influential psychedelic substance, as well as the prototypal lysergamide. The mechanism of action is not fully known, although serotonin binding activity is thought to be involved.  The psychoactive effects of LSD were first discovered in 1943 by Albert Hofmann at Sandoz Laboratories (Switzerland).[3] In the 1950s, it was widely distributed by Sandoz as an experimental drug for psychotherapy and scientific research;[4] during this era, it provoked considerable interest from the intellectual establishment and was even the subject of a clandestine investigation by the U.S. Central Intelligence Agency (CIA) for potential applications in &quot;mind control&quot;.[5]  Recreational LSD use became a central, highly-visible aspect of the 1960s youth counterculture movement, eventually paving the way for international prohibition in 1971.[6][7] Today, illicit recreational use remains widespread and it is associated in popular culture with the counterculture and rave scenes. The lifetime prevalence of LSD use among American adults is 6-8%.[8]  Following decades of institutional suppression, scientific research involving LSD has recently undergone a massive revival.[4] As a part of the so-called &quot;psychedelic renaissance&quot;,[9] it is currently being investigated in the treatment of a number of conditions including alcoholism,[10] substance addiction,[11] cluster headache,[12] autism,[13] and anxiety associated with terminal illness.[14]  Subjective effects include visual geometry / hallucinatory states, time distortion, enhanced introspection, conceptual thinking, increased music appreciation, euphoria, and ego loss. LSD use is reportedly associated with mystical-type experiences that are sometimes claimed to facilitate self-reflection and personal growth.[15] It has been called the first modern entheogen, a group which is otherwise limited to traditional plant preparations or extracts.[16]  Unlike most highly prohibited substances, LSD has not been proven to be physiologically toxic or addictive.[2][17] However, adverse psychological reactions such as severe anxiety, paranoia, delusions, and psychosis are always possible, particularly for those predisposed to mental disorders"
                 tools:ignore="VisualLintLongText" />
 
         </LinearLayout>

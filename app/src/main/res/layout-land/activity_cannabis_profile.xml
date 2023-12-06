@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBFBFB"
-    android:contentDescription="@string/ketamine"
+    android:contentDescription="@string/cannabis"
     android:orientation="vertical"
-    tools:context=".profiles.KetamineProfile">
+    tools:context=".profiles.CannabisProfile">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -28,8 +28,8 @@
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
-                    android:layout_width="409dp"
-                    android:layout_height="75dp"
+                    android:layout_width="735dp"
+                    android:layout_height="73dp"
                     android:background="@color/white"
                     android:minHeight="?attr/actionBarSize"
                     android:theme="?attr/actionBarTheme"
@@ -105,7 +105,7 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Ketamine"
+                android:text="Cannabis"
                 android:textSize="30sp"
                 tools:ignore="HardcodedText,TextSizeCheck" />
 
@@ -115,7 +115,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="20dp"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/lsd"
+                app:srcCompat="@drawable/cannabis"
                 tools:ignore="ContentDescription,HardcodedText" />
 
             <View
@@ -156,20 +156,20 @@
                     android:textSize="25sp" />
 
                 <View
-                    android:id="@+id/interaction_red"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="1dp"
-                    android:background="#C72121"
-                    android:foreground="@drawable/tramadol_warning" />
-
-                <View
                     android:id="@+id/interaction_amber"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginTop="1dp"
-                    android:background="#FA0529"
-                    android:foreground="@drawable/alcohol_warning_red" />
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/amphetamine_warning" />
+
+                <View
+                    android:id="@+id/interaction_amber3"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/mushroom_warning" />
 
                 <View
                     android:id="@+id/interaction_green"
@@ -177,7 +177,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="1dp"
                     android:background="#53B842"
-                    android:foreground="@drawable/benzo_warning" />
+                    android:foreground="@drawable/lsd_warning" />
 
             </LinearLayout>
 
@@ -185,8 +185,8 @@
                 android:id="@+id/substanceDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ketamine (also known as Ket, K, Special K, vitamin K,[5] Kitty, and others) is a classical dissociative substance of the arylcyclohexylamine class. It is perhaps the best-known and archetypal member of the dissociatives, a diverse group which includes PCP, methoxetamine, DXM, and nitrous oxide. The mechanism of action is not fully known, although blocking of the NMDA glutamate receptor is thought to be involved.  Developed in 1963 by Parke-Davis Laboratories, it was originally intended as a replacement for the surgical anesthetic phencyclidine (PCP).[6] It is now widely used in human and veterinary medicine, typically in surgical and intensive care settings. Recently, it has received significant clinical research following the discovery that it can rapidly relieve treatment-resistant depression and suicidal ideation.[7]  Recreational use was first reported amongst medicinal chemists in the United States in 1967,[8] and became more widespread in Europe in the 1990s, where it gained popularity as an adulterant in ecstasy tablets.[9][10] Today, it is associated in popular culture with the nightclub and rave scenes.[11]  Subjective effects include motor control loss, pain relief, internal hallucinations, memory suppression, conceptual thinking, immersion enhancement, euphoria, and depersonalization / dissociation. The effects are similar to PCP and DXM but with a shorter duration and a rapid onset. It is known for producing relatively &quot;pure&quot; dissociation, without as much stimulation and mania as PCP or MXE.  Additionally, the effects of ketamine are highly dose-dependent.[12] At lower doses, users report alcohol-like disinhibition and relaxation effects. At higher doses, however, it reportedly produces a hallucinogenic trance-like state (called a &quot;k-hole&quot;) that is often described as an &quot;out-of-body&quot; or &quot;near-death&quot; experience.  It has moderate to high abuse potential. Chronic use (i.e. high dose, repeat administration) is linked with compulsive redosing and psychological dependence. Additionally, the health risks of chronic or heavy use are not well-studied; however, there is increasing evidence that it can cause bladder dysfunction[13] and some evidence of cognitive and memory issues"
-                tools:ignore="VisualLintLongText" />
+                android:text="Cannabis (also known as thc,marijuana,[1] weed,[2] pot,[3], grass,[4] hemp,[5] and many others) is a preparation of the cannabis plant that produces psychoactive effects when consumed (via smoking, vaporizing, or ingestion). It is the most used illicit substance in the world.[6][7] The mechanism of action is binding activity at cannabinoid receptors distributed throughout the body.[citation needed]  The principal psychoactive constituent of cannabis is tetrahydrocannabinol (THC), which makes up one of 483 known compounds in the plant,[8] including at least 84 other cannabinoids such as cannabidiol (CBD), cannabinol (CBN), tetrahydrocannabivarin (THCV),[9][10] and cannabigerol (CBG). At least three species are recognized: Cannabis sativa, Cannabis indica, and Cannabis ruderalis.[citation needed]  The earliest recorded uses of cannabis date from the 3rd millennium BC.[11] In modern times, cannabis is used for recreational or medicinal and religious or spiritual purposes.[12] It played a central role in the 1960s youth counterculture movement and is associated with the art and music of this era.[citation needed]  Subjective effects include sedation, appetite enhancement, immersion enhancement, creativity enhancement, increased sense of humor, increased music appreciation, visual, disconnection and euphoria. The effects can vary widely depending on dose, strain and form, tolerance, and set and setting. Notably, it can either strongly suppress or enhance anxiety depending on the individual and situation.  Lower doses are associated with relaxing effects similar to a depressant. Higher doses are associated with mild-to-moderate hallucinogenic effects such as visual hallucinations, conceptual thinking and time distortion, as well as a greater risk of anxiety, paranoia, and delusions (generally more prevalent with sativa strains).  Cannabis is considered to have low to moderate abuse potential.[citation needed] Chronic use is associated with escalating tolerance and psychological dependence in some individuals.[citation needed] It has very low physical toxicity and is essentially impossible to physically overdose on. However, it is capable of exacerbating certain mental health symptoms like delusions or psychosis in predisposed individuals (see this section).[citation needed]  Long-term cannabis use may be associated with negative cognitive effects such as brain fog, lowered motivation, difficulty learning, and inattention. These effects are typically reversible with tapered use and time off.[13]"
+                tools:ignore="HardcodedText,VisualLintLongText" />
 
         </LinearLayout>
     </ScrollView>

@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBFBFB"
-    android:contentDescription="@string/ketamine"
+    android:contentDescription="@string/ecstasy"
     android:orientation="vertical"
-    tools:context=".profiles.KetamineProfile">
+    tools:context=".profiles.EcstasyProfile">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
-                    android:layout_width="409dp"
+                    android:layout_width="729dp"
                     android:layout_height="75dp"
                     android:background="@color/white"
                     android:minHeight="?attr/actionBarSize"
@@ -105,7 +105,7 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Ketamine"
+                android:text="MDMA "
                 android:textSize="30sp"
                 tools:ignore="HardcodedText,TextSizeCheck" />
 
@@ -114,8 +114,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="20dp"
+                app:srcCompat="@drawable/mdma"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/lsd"
                 tools:ignore="ContentDescription,HardcodedText" />
 
             <View
@@ -168,8 +168,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:layout_marginTop="1dp"
-                    android:background="#FA0529"
-                    android:foreground="@drawable/alcohol_warning_red" />
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/alcohol_warning" />
 
                 <View
                     android:id="@+id/interaction_green"
@@ -177,7 +177,7 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="1dp"
                     android:background="#53B842"
-                    android:foreground="@drawable/benzo_warning" />
+                    android:foreground="@drawable/ssri_warning" />
 
             </LinearLayout>
 
@@ -185,7 +185,7 @@
                 android:id="@+id/substanceDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ketamine (also known as Ket, K, Special K, vitamin K,[5] Kitty, and others) is a classical dissociative substance of the arylcyclohexylamine class. It is perhaps the best-known and archetypal member of the dissociatives, a diverse group which includes PCP, methoxetamine, DXM, and nitrous oxide. The mechanism of action is not fully known, although blocking of the NMDA glutamate receptor is thought to be involved.  Developed in 1963 by Parke-Davis Laboratories, it was originally intended as a replacement for the surgical anesthetic phencyclidine (PCP).[6] It is now widely used in human and veterinary medicine, typically in surgical and intensive care settings. Recently, it has received significant clinical research following the discovery that it can rapidly relieve treatment-resistant depression and suicidal ideation.[7]  Recreational use was first reported amongst medicinal chemists in the United States in 1967,[8] and became more widespread in Europe in the 1990s, where it gained popularity as an adulterant in ecstasy tablets.[9][10] Today, it is associated in popular culture with the nightclub and rave scenes.[11]  Subjective effects include motor control loss, pain relief, internal hallucinations, memory suppression, conceptual thinking, immersion enhancement, euphoria, and depersonalization / dissociation. The effects are similar to PCP and DXM but with a shorter duration and a rapid onset. It is known for producing relatively &quot;pure&quot; dissociation, without as much stimulation and mania as PCP or MXE.  Additionally, the effects of ketamine are highly dose-dependent.[12] At lower doses, users report alcohol-like disinhibition and relaxation effects. At higher doses, however, it reportedly produces a hallucinogenic trance-like state (called a &quot;k-hole&quot;) that is often described as an &quot;out-of-body&quot; or &quot;near-death&quot; experience.  It has moderate to high abuse potential. Chronic use (i.e. high dose, repeat administration) is linked with compulsive redosing and psychological dependence. Additionally, the health risks of chronic or heavy use are not well-studied; however, there is increasing evidence that it can cause bladder dysfunction[13] and some evidence of cognitive and memory issues"
+                android:text="@string/mdmaDescriptiom"
                 tools:ignore="VisualLintLongText" />
 
         </LinearLayout>

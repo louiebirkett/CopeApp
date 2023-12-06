@@ -17,7 +17,7 @@ public class LSDProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ecstasy_profile);
+        setContentView(R.layout.activity_lsdprofile);
 
         Button backButton = findViewById(R.id.back_button);
         backButton.setOnClickListener(new View.OnClickListener() {

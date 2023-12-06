@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBFBFB"
-    android:contentDescription="@string/ecstasy"
+    android:contentDescription="@string/cannabis"
     android:orientation="vertical"
-    tools:context=".profiles.EcstasyProfile">
+    tools:context=".profiles.CannabisProfile">
 
     <ScrollView
         android:layout_width="wrap_content"
