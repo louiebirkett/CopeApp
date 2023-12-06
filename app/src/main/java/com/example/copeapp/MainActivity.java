@@ -2,6 +2,7 @@ package com.example.copeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                openEcstasyProfile();
             }
         });
         horseButton.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +68,13 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
             }
         });
-
-
     }
+
+
+    // Open Profile
+    public void openEcstasyProfile(){
+        Intent intent = new Intent(this, EcstasyProfile.class);
+        startActivity(intent);
+    }
+
 }
