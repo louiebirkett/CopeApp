@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:contentDescription="@string/ecstasy"
+    android:orientation="vertical"
+    tools:context=".EcstasyProfile">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/toolbarConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="409dp"
+                    android:layout_height="75dp"
+                    android:background="@color/white"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="?attr/actionBarTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/appName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cope"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/toolbar"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <ImageView
+                    android:id="@+id/navMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="TODO"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.04"
+                    app:layout_constraintStart_toStartOf="@+id/toolbar"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/vector"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/searchIcon"
+                    android:layout_width="68dp"
+                    android:layout_height="44dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/toolbar"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/search"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <Button
+                    android:id="@+id/back_button"
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/back"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="@string/button"
+                    android:foreground="@drawable/back"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/toolbar"
+                    app:layout_constraintHorizontal_bias="0.226"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.482"
+                    tools:ignore="RedundantDescriptionCheck" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/substanceName"
+                android:layout_width="387dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Cannabis"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/substanceImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/cannabis"
+                tools:ignore="ContentDescription,HardcodedText" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        android:layout_width="198dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/interactions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/interactions"
+                    android:textSize="25sp" />
+
+                <View
+                    android:id="@+id/interaction_amber"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/amphetamine_warning" />
+
+                <View
+                    android:id="@+id/interaction_amber3"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#DBCA2C"
+                    android:foreground="@drawable/mushroom_warning" />
+
+                <View
+                    android:id="@+id/interaction_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#53B842"
+                    android:foreground="@drawable/lsd_warning" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/substanceDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cannabis (also known as thc,marijuana,[1] weed,[2] pot,[3], grass,[4] hemp,[5] and many others) is a preparation of the cannabis plant that produces psychoactive effects when consumed (via smoking, vaporizing, or ingestion). It is the most used illicit substance in the world.[6][7] The mechanism of action is binding activity at cannabinoid receptors distributed throughout the body.[citation needed]  The principal psychoactive constituent of cannabis is tetrahydrocannabinol (THC), which makes up one of 483 known compounds in the plant,[8] including at least 84 other cannabinoids such as cannabidiol (CBD), cannabinol (CBN), tetrahydrocannabivarin (THCV),[9][10] and cannabigerol (CBG). At least three species are recognized: Cannabis sativa, Cannabis indica, and Cannabis ruderalis.[citation needed]  The earliest recorded uses of cannabis date from the 3rd millennium BC.[11] In modern times, cannabis is used for recreational or medicinal and religious or spiritual purposes.[12] It played a central role in the 1960s youth counterculture movement and is associated with the art and music of this era.[citation needed]  Subjective effects include sedation, appetite enhancement, immersion enhancement, creativity enhancement, increased sense of humor, increased music appreciation, visual, disconnection and euphoria. The effects can vary widely depending on dose, strain and form, tolerance, and set and setting. Notably, it can either strongly suppress or enhance anxiety depending on the individual and situation.  Lower doses are associated with relaxing effects similar to a depressant. Higher doses are associated with mild-to-moderate hallucinogenic effects such as visual hallucinations, conceptual thinking and time distortion, as well as a greater risk of anxiety, paranoia, and delusions (generally more prevalent with sativa strains).  Cannabis is considered to have low to moderate abuse potential.[citation needed] Chronic use is associated with escalating tolerance and psychological dependence in some individuals.[citation needed] It has very low physical toxicity and is essentially impossible to physically overdose on. However, it is capable of exacerbating certain mental health symptoms like delusions or psychosis in predisposed individuals (see this section).[citation needed]  Long-term cannabis use may be associated with negative cognitive effects such as brain fog, lowered motivation, difficulty learning, and inattention. These effects are typically reversible with tapered use and time off.[13]"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

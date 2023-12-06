@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+                openCannabisProfile();
             }
         });
         horseButton.setOnClickListener(new View.OnClickListener(){
@@ -74,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
     // Open Profile
     public void openEcstasyProfile(){
         Intent intent = new Intent(this, EcstasyProfile.class);
+        startActivity(intent);
+    }
+    public void openCannabisProfile(){
+        Intent intent = new Intent(this, CannabisProfile.class);
         startActivity(intent);
     }
 

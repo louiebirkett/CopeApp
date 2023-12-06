@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
-public class EcstasyProfile extends AppCompatActivity {
+public class CannabisProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class EcstasyProfile extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(EcstasyProfile.this, "Back", Toast.LENGTH_SHORT).show();
+                Toast.makeText(CannabisProfile.this, "Back", Toast.LENGTH_SHORT).show();
                 openHome();
 
             }
@@ -40,7 +40,6 @@ public class EcstasyProfile extends AppCompatActivity {
 
 
     }
-
 
     // Open Home Page
     public void openHome() {
