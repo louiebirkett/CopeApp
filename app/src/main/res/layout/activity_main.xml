@@ -122,7 +122,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/appName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cope"
@@ -141,7 +141,7 @@
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/navMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -154,7 +154,7 @@
             tools:ignore="ContentDescription,HardcodedText" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/searchIcon"
             android:layout_width="68dp"
             android:layout_height="44dp"
             app:layout_constraintBottom_toBottomOf="parent"
