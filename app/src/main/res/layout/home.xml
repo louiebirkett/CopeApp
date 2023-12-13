@@ -145,14 +145,13 @@
             android:id="@+id/navMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checkable="true"
-            android:contentDescription="TODO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toStartOf="@+id/toolbar"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/vector"
+            android:contentDescription="TODO"
             tools:ignore="ContentDescription,HardcodedText" />
 
         <ImageView
@@ -164,7 +163,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/search"
             tools:ignore="ContentDescription" />
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -180,7 +178,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbarConstraintLayout"
         tools:ignore="HardcodedText" />
-
 
     <ImageView
         android:id="@+id/imageView_Pill"
@@ -285,5 +282,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.719"
         tools:ignore="HardcodedText" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

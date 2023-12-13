@@ -115,7 +115,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="20dp"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/lsd"
+                app:srcCompat="@drawable/ketamine"
                 tools:ignore="ContentDescription,HardcodedText" />
 
             <View

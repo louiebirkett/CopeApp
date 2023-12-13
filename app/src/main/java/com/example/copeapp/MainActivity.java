@@ -1,11 +1,15 @@
 package com.example.copeapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.copeapp.profiles.CannabisProfile;
@@ -13,7 +17,8 @@ import com.example.copeapp.profiles.EcstasyProfile;
 import com.example.copeapp.profiles.KetamineProfile;
 import com.example.copeapp.profiles.LSDProfile;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +31,19 @@ public class MainActivity extends AppCompatActivity {
         Button sunButton = findViewById(R.id.button_sun);
         Button button6 = findViewById(R.id.button6);
         Button button7 = findViewById(R.id.button7);
+        ImageView navMenu = findViewById(R.id.navMenu);
+
+
 
 
 //        BUTTON ON CLICK LISTENERS
+//        navMenu.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(MainActivity.this, "Pressed", Toast.LENGTH_SHORT).show();
+//                openNavMenu();
+//            }
+//        });
         pillButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,6 +95,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+//    public void openNavMenu(){
+//        Intent intent = new Intent(this, NavigationDrawerActivity.class);
+//        startActivity(intent);
+//    }
     // Open Profile
     public void openEcstasyProfile(){
         Intent intent = new Intent(this, EcstasyProfile.class);
